@@ -1,0 +1,38 @@
+# This file contains metadata for your plugin.
+
+[general]
+name=Compress Raster
+qgisMinimumVersion=3.0
+description=Tool to compress raster files using high efficiency DEFLATE compression
+version=1.0
+author=Damaris Toledo
+email=sdamaristc@gmail.com
+
+about=Plugin to compress raster files (TIF, TIFF, IMG, ASC) using optimized DEFLATE compression algorithms. Allows individual file selection, custom output folder, and detailed compression statistics. Developed by Damaris Toledo for Escuela Peruana del Agua (EPAGUA).
+
+tracker=https://github.com/SDTC08/Compress-raster/issues
+repository=https://github.com/SDTC08/Compress-raster
+# End of mandatory metadata
+
+# Recommended items:
+hasProcessingProvider=no
+changelog=1.0 - Initial release
+    - DEFLATE compression with adjustable ZLEVEL
+    - Individual file selection using QGIS-style widgets
+    - Customizable output folder
+    - Statistics panel with detailed results
+    - Standard QGIS interface style
+    - Background processing with progress bar
+    - Optimized parameters: PREDICTOR=2, TILED=YES, BIGTIFF, NUM_THREADS
+
+# Tags are comma separated with spaces allowed
+tags=raster,compression,processing,batch,optimization,deflate
+
+homepage=https://epagua.edu.pe
+category=Raster
+icon=icon.png
+experimental=False
+deprecated=False
+
+# If the plugin can run on QGIS Server.
+server=False
