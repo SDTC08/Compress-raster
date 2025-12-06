@@ -28,7 +28,7 @@ changelog=1.0 - Initial release
 # Tags are comma separated with spaces allowed
 tags=raster,compression,processing,batch,optimization,deflate
 
-homepage=https://epagua.edu.pe
+homepage=https://github.com/SDTC08/Compress-raster
 category=Raster
 icon=icon.png
 experimental=False
